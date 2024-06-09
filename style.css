@@ -6,17 +6,21 @@
     margin: 0px;
 }
 
+body{
+    background-color: black;
+}
+
 .main {
     background-image: url(assets/img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     opacity: 0.44;
     background-color: black;
@@ -57,19 +61,23 @@ nav button {
     position: relative;
     color: white;
     gap: 20px;
+    padding: 20px;
 }
 
-.hero :first-child{
+.hero> :nth-child(1){
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 
-.hero :nth-child(2){
+.hero> :nth-child(2){
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
-.hero :last-child{
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
